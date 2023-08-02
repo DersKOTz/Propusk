@@ -57,7 +57,7 @@ namespace Propusk
                         {
                             if (Convert.ToInt32(value) == Convert.ToInt32(pasS))
                             {
-                                MessageBox.Show("Пароль верный!"); //
+                                 // yes
                             }
                             else
                             {
@@ -77,7 +77,6 @@ namespace Propusk
             {
                 if (1736 == Convert.ToInt32(pasSadm))
                 {
-                    MessageBox.Show("Пароль верный!");
                     group_dbBindingNavigator.Visible = true;
                     group_dbDataGridView.Columns[1].Visible = true;
                     group_dbDataGridView.ReadOnly = false;
